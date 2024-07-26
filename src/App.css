@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -34,5 +34,109 @@
   }
   to {
     transform: rotate(360deg);
-  }
+  } */
+   body{
+    height: 100% !important;
+    width: 100% !important;
+   }
+.ant-card-cover
+{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;      
 }
+
+.cart-img
+{
+  width: 30px;
+  height:30px;
+}
+.navbar-brand
+{
+  font-weight: bold;
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+  font-size: 33px!important;
+}
+.navbar-nav
+{
+  font-weight: bold;
+  
+}
+.nav-link
+{
+  margin-left: 10px;
+  width: 100px !important;
+}
+div.cartclass{
+  margin-left: 750px;
+}
+.cart
+{
+  width: 40px;
+  height: 30px;
+}
+.navbar
+{
+  background-color:#d6ccc2 !important;
+  position: fixed !important; 
+  top: 0; 
+  left: 0; 
+  z-index: 9999;
+  width: 100%; 
+
+}
+.ant-row{
+  margin-left: 50px !important;
+  margin-left: 50px !important;
+  margin-top: 80px !important;
+}
+.ant-carousel{
+  margin-top: 80px !important;
+}
+.ant-card{
+  width: 360px  !important;
+  height: 330px  !important;
+}
+.ant-btn
+{
+  width: 160px!important;
+  background-color: black;
+}
+.contactUS
+{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important; 
+}
+.ContactForm
+{
+  margin-top: 100px !important;
+  width: 600px;
+  height: 450px;
+  background-color:rgba(0, 0, 0, 0.199);
+  border-radius: 20px;
+  box-shadow: 5px 1px 15px black;
+}
+.cart-container {
+  position: relative;
+  display: inline-block;
+}
+
+.cart-count {
+  position: absolute;
+  top: -10px; /* Adjust as needed */
+  right: -10px; /* Adjust as needed */
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px; /* Adjust as needed */
+}
+/* .register{
+  height: 100%;
+  width:100%;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important; 
+} */
